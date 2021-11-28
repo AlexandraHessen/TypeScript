@@ -18,10 +18,12 @@ interface IWaterTransp {
 // моторная лодка - и устройство с мотором, и водный транспорт
 class MotorShip implements IEngine, IWaterTransp {
 
-    // уровень топлива
+    // уровень топлива 
+    //свойство самого класса
     fuelLevel:number;
 
     // находится ли на воде
+    //свойство самого класса
     onWater:boolean;
 
     constructor() {
@@ -29,6 +31,7 @@ class MotorShip implements IEngine, IWaterTransp {
         this.onWater=false;
     }
 
+    // реализуем методы из interface
     addFuel(_add:number):void {
         this.fuelLevel+=_add;
     }

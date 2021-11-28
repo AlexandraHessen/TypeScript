@@ -1,5 +1,5 @@
 
-interface ISpeed {
+interface ISpeed { // название interface начинать с буквы I + причастие/наречие (ремонтируемое)
 
     start(_speed:number):void;
     stop():void;

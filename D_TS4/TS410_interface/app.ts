@@ -3,7 +3,7 @@ interface ISpeed { // название interface начинать с буквы 
 
     start(_speed:number):void;
     stop():void;
-   
+//    в дочернем классе надо обязательно реализовать ВСЕ методы указанные в interface 
 }
 
 class Car implements ISpeed {

@@ -1,12 +1,4 @@
-// public class Car {
-//     private engine:Engine;
-  
-//     public Car() {
-//        this.engine = new Engine();
-//     }
-//   }
-  
-//   класс Car ЗАВИСИТ от класса Engine.
+
 // интерфейс управления скоростью
 interface ISpeed {
 

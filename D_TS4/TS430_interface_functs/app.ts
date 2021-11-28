@@ -69,6 +69,7 @@ let car1:Car=new Car("2870-ОГО");
 
 let ship1:Ship=new Ship();
 
+// ISpeed это не тип, не класс
 function trainer(tr:ISpeed):void {
     for ( let testnum:number=0; testnum<1000; testnum++ ) {
         tr.start(100);

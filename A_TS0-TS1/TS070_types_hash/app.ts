@@ -9,3 +9,8 @@ var friendKey:keyof {fam:string,im:string,otch:string,age:number};
 friendKey="fam";
 // friendKey="fam2"; // ошибка
 console.log(friendKey) //fam
+
+let person:{fio:string,age:number}={fio:"Иванов",age:29};
+
+let person2:{fio:string,age?:number}={fio:"Иванов"};
+//? может быть, может не быть

@@ -25,3 +25,11 @@ var friend:Man
 var friendKey:keyof Man;
 friendKey="fam";
 //friendKey="fam2"; // ошибка
+
+type PersonIdent=number;
+let ivanovId:PersonIdent=25;
+
+type Color=number|string;
+let danger:Color=0xFF0000;
+let success:Color='green';
+

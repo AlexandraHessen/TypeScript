@@ -25,3 +25,9 @@ var myStr2:5|'Second';
 myStr='Second';
 myStr2=5;
 // myStr='Third'; // ошибка
+
+
+enum Sides { SIDE_UP=1, SIDE_RIGHT, SIDE_DOWN, SIDE_LEFT };
+let side1:Sides=Sides.SIDE_RIGHT; //2
+console.log(side1);
+console.log(Sides[2]); //SIDE_RIGHT

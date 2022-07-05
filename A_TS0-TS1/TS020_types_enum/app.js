@@ -18,6 +18,8 @@ console.log(col1); //0
 console.log(Color.YELLOW); //1
 console.log(Color.GREEN); //9
 console.log(Color[1]); //YELLOW
+console.log(Color[2]); //YELLOW
+console.log(Color[9]); //YELLOW
 // это не enum
 var myStr;
 // | или
@@ -33,7 +35,7 @@ var Sides;
     Sides[Sides["SIDE_LEFT"] = 4] = "SIDE_LEFT";
 })(Sides || (Sides = {}));
 ;
-var side1 = Sides.SIDE_RIGHT; //1
+var side1 = Sides.SIDE_RIGHT; //2
 console.log(side1);
-console.log(Sides[2]);
+console.log(Sides[2]); //SIDE_RIGHT
 //# sourceMappingURL=app.js.map

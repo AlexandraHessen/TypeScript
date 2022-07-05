@@ -2,6 +2,7 @@ enum Color { BLACK, YELLOW, RED=8, GREEN };
 // каждая последующая переммная увеличивается на 1
 // может оказаться что две const равны одному и тому же значению
 // новый тип Color и поэтому с большой буквы
+// если обращаемся по индексам то не по ноьмеру в массиве а по значению
 // BLACK, =0
 // YELLOW, =1
 // RED=8, 
@@ -14,6 +15,11 @@ console.log(Color.YELLOW); //1
 console.log(Color.GREEN); //9
 
 console.log(Color[1]); //YELLOW
+
+console.log(Color[2]); //undefined
+console.log(Color[9]); //GREEN
+
+
 
 
 // это не enum

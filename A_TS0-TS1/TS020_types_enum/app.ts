@@ -1,4 +1,5 @@
 enum Color { BLACK, YELLOW, RED=8, GREEN };
+// enum Color { BLACK, YELLOW="y", RED="red", GREEN="g" };
 // каждая последующая переммная увеличивается на 1
 // может оказаться что две const равны одному и тому же значению
 // новый тип Color и поэтому с большой буквы
